@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/productImage"
+        android:layout_margin="10dp"
+        ></ImageView>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/productName"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:text="Ürün Adı"
+
+        ></TextView>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="XXX TL"
+        android:id="@+id/productPrice"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:layout_margin="5dp"
+        android:textStyle="bold"
+
+
+        ></TextView>
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addBasketButton"
+        android:text="Sepete Ekle"
+        android:layout_gravity="center"
+        ></com.google.android.material.button.MaterialButton>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
